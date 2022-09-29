@@ -141,7 +141,7 @@ main{
         }
     }
 footer{
-    height: 10vh;
+    height: 15vh;
     display: flex;
     align-items:center;
     justify-content: space-around;
@@ -150,9 +150,58 @@ footer{
         height: 30px;
         border-radius: 50%;
         border: white 10px solid;
-        box-shadow: -6px -1px #92f7f2;
+         box-shadow: -6px -1px #92f7f2;
     }
     :nth-child(1){
         flex-grow: .9;
     }
+}
+@media (max-width:992px){
+    main {
+        background-color: white;
+        color: black;
+        height: 90vh;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        flex-flow: wrap;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+    footer {
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+@media (max-width:1400px){
+    main {
+        background-color: white;
+        color: black;
+        height: auto;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-flow: wrap;
+        width: 95vw;
+        .cards {
+            width: 93vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    footer {
+        height: 15vh;
+        display: flex;
+        width: 95vw;
+        align-items: center;
+        justify-content: center;
+        .redessociais{
+            margin-right: 1rem;
+        }
+    }
+
 }
