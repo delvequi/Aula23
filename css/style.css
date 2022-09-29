@@ -32,7 +32,6 @@ header :nth-child(1) {
 header .logo {
   font-size: 2rem;
   font-weight: 700;
-  margin-right: 18rem;
 }
 header .menu {
   font-size: 1.5rem;
