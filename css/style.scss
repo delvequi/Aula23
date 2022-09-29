@@ -149,7 +149,8 @@ footer{
         width: 30px;
         height: 30px;
         border-radius: 50%;
-        box-shadow: 5px 5px $shadow inset;
+        border: white 10px solid;
+        box-shadow: -6px -1px #92f7f2;
     }
     :nth-child(1){
         flex-grow: .9;
