@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body span, body span.highlight {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 3.438rem;
+  letter-spacing: 0.625rem;
+}
+body span.highlight {
+  background: linear-gradient(#03faee, #03faee) 0 var(--y-pos, 90%)/100% var(--size, 8px) no-repeat;
+}
+
+header {
+  background-color: #f8f8f8;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  width: 100vw;
+}
+header :nth-child(1) {
+  flex-grow: 0.8;
+}
+header .logo {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-right: 18rem;
+}
+header .menu {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+header .menu ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+header .menu li {
+  padding: 0px 10px;
+}
+
+main {
+  background-color: #f8f8f8;
+  color: black;
+  height: 800px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+main .mainLE {
+  margin-top: 40px;
+  width: 45%;
+  height: 150px;
+}
+main .mainLE p {
+  line-height: 40px;
+  margin: 20px 0px;
+  color: #8b8b8b;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main .mainLE button {
+  border: dashed 1px;
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  background-color: #03faee;
+  font-size: 1rem;
+  font-weight: 500;
+}
+main .mainLD {
+  width: 45%;
+}
+main .mainLD img {
+  width: 500px;
+  height: 500px;
+}
+main .cards {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+main .cards .card {
+  background-color: #f8f8f8;
+  padding: 10px;
+  border-radius: 5px;
+  width: 30%;
+  height: 200px;
+}
+main .cards .card h3.highlight2 {
+  display: inline;
+  background: linear-gradient(#03faee, #03faee) 0 var(--y-pos, 90%)/100% var(--size, 8px) no-repeat;
+}
+main .cards .card p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #8b8b8b;
+}
+main .cards button {
+  width: 40px;
+  height: 40px;
+  border: solid 1px;
+  border-radius: 50%;
+  box-shadow: 5px 5px #92f7f2 inset;
+}
+
+footer {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  box-shadow: 5px 5px #92f7f2 inset;
+}
+footer :nth-child(1) {
+  flex-grow: 0.9;
+}/*# sourceMappingURL=style.css.map */
