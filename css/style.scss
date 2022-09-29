@@ -160,7 +160,7 @@ footer{
     main {
         background-color: white;
         color: black;
-        height: 90vh;
+        height: 100vh;
         display: flex;
         align-items: flex-start;
         justify-content: space-around;
@@ -180,17 +180,17 @@ footer{
     main {
         background-color: white;
         color: black;
-        height: auto;
+        height: 90vh;
         display: flex;
         align-items: flex-start;
         justify-content: center;
         flex-flow: wrap;
         width: 95vw;
-        .cards {
-            width: 93vw;
+        .cards{
+            width: 90vw;
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: space-around;
         }
     }
     footer {
