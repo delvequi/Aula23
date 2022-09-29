@@ -103,6 +103,10 @@ main .cards .card h3.highlight2 {
 main .cards .card p {
   font-family: Arial, Helvetica, sans-serif;
   color: #8b8b8b;
+  font-size: 0.84rem;
+  line-height: 1.1rem;
+  color: #181000;
+  padding-top: 0.3rem;
 }
 main .cards button {
   width: 40px;
