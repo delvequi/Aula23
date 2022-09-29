@@ -23,7 +23,7 @@ body{
 }
 
 header{
-    background-color: $bg-secondary;
+    background-color: $bg-white;
     // font-family: 'Roboto', sans-serif;
     color: black;
     display: flex;
@@ -58,10 +58,10 @@ header{
 }
 
 main{
-    background-color: $bg-secondary;
+    background-color: $bg-white;
     // font-family: 'Roboto', sans-serif;
     color: black;
-    height: 100vh;
+    height: auto;
     display: flex;
     align-items:flex-start;
     justify-content:space-around;

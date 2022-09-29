@@ -18,7 +18,7 @@ body span.highlight {
 }
 
 header {
-  background-color: #f8f8f8;
+  background-color: white;
   color: black;
   display: flex;
   justify-content: space-around;
@@ -48,9 +48,9 @@ header .menu li {
 }
 
 main {
-  background-color: #f8f8f8;
+  background-color: white;
   color: black;
-  height: 100vh;
+  height: auto;
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
