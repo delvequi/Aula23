@@ -34,7 +34,7 @@ header .logo {
   font-weight: 700;
 }
 header .menu {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 header .menu ul {
@@ -76,11 +76,11 @@ main .mainLE button {
   font-weight: 500;
 }
 main .mainLD {
-  width: 45%;
+  width: 45vw;
 }
 main .mainLD img {
-  width: 500px;
-  height: 500px;
+  width: 42vw;
+  height: auto;
 }
 main .cards {
   width: 100%;
@@ -95,11 +95,18 @@ main .cards .card {
   width: 30%;
   height: 200px;
 }
-main .cards .card h3.highlight2 {
+main .cards span {
+  font-family: "Roboto";
+  font-weight: 800;
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
   display: inline;
+  color: #181000;
+}
+main .cards span.highlight2 {
   background: linear-gradient(#03faee, #03faee) 0 var(--y-pos, 90%)/100% var(--size, 8px) no-repeat;
 }
-main .cards .card p {
+main .cards p {
   font-family: Arial, Helvetica, sans-serif;
   color: #8b8b8b;
   font-size: 0.84rem;
@@ -107,12 +114,12 @@ main .cards .card p {
   color: #181000;
   padding-top: 0.3rem;
 }
-main .cards button {
+main button.buttonCard {
   width: 40px;
   height: 40px;
   border: solid 1px;
   border-radius: 50%;
-  box-shadow: 5px 5px #92f7f2 inset;
+  box-shadow: -5px 0px #92f7f2;
 }
 
 footer {

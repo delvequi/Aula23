@@ -41,7 +41,7 @@ header{
     }
     
     .menu{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-weight: 500;
 
         ul{
@@ -92,10 +92,10 @@ main{
     }
     
     .mainLD{
-        width: 45%;
+        width: 45vw;
         img{
-            width: 500px;
-            height: 500px;
+            width: 42vw;
+            height: auto;
         }
     }
 
@@ -110,8 +110,16 @@ main{
             border-radius: 5px;
             width: 30%;
             height: 200px;
-            h3.highlight2{
+            }
+            span{
+                font-family:'Roboto';
+                font-weight: 800;
+                font-size: 1rem;
+                letter-spacing:0.15rem;
                 display: inline;
+                color: $corCardTexto;
+            }
+            span.highlight2{
                 background: linear-gradient($bg-primary, $bg-primary) 0 var(--y-pos, 90%) / 100% var(--size, 8px) no-repeat;
             }
             p{
@@ -121,17 +129,17 @@ main{
                 line-height: 1.1rem;
                 color: $corCardTexto;
                 padding-top: 0.3rem;
-            }    
+            } 
         }
-        button{
+        button.buttonCard{
             width: 40px;
             height: 40px;
             border: solid 1px;
             border-radius: 50%;
-            box-shadow: 5px 5px $shadow inset;
+            box-shadow: -5px 0px #92f7f2;
+
         }
     }
-}
 footer{
     height: 10vh;
     display: flex;
